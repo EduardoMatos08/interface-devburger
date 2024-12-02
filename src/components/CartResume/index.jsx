@@ -4,7 +4,7 @@ import { useCart } from "../../hooks/CartContext";
 import { api } from "../../services/api";
 import { formatPrice } from "../../utils/formatPrice"; 
 import { useNavigate } from "react-router-dom";
-import { Button } from "../Button";
+import Button from "../../components/Button";
 import { Container} from "./styles";
 
 

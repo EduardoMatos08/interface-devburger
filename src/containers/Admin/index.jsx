@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, ContainerItem } from "./styles";
 import Orders from "./Orders";
-import { MenuAdmin } from "../../components";
+import { Menu } from "../../containers/Menu";
 import ListProducts from "./ListProducts";
-import { useLocation} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import NewProduct from "./NewProduct";
 import EditProduct from "./EditProduct";
 
@@ -16,7 +16,7 @@ export function Admin() {
   
   return (
     <Container>
-     <MenuAdmin/>
+     <Menu/>
      <ContainerItem>
      {location.pathname === "/pedidos" && <Orders/>}
      {location.pathname === "/listar-produtos" && <ListProducts/>}
