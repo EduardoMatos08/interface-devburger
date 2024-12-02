@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import EditIcon from '@mui/icons-material/Edit';
+import CloudUpload from '@mui/icons-material/CloudUpload';
 
 export const Container = styled.div`
 
